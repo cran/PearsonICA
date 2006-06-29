@@ -1,0 +1,23 @@
+citHeader("To cite the PearsonICA package use:")
+
+citEntry(entry="article",
+        title = "Blind separation methods based on Pearson system and its extensions",
+        author=personList(person("Juha","Karvanen",email="juha.karvanen@ktl.fi"),person("Visa","Koivunen")),
+	journal="Signal Processing",
+	volume="82",
+	number="4",
+	pages="663--673",
+	year=2002,
+	url="http://dx.doi.org/10.1016/S0165-1684(01)00213-4",        
+
+	textVersion ="Karvanen J., Koivunen V. (2002). Blind separation methods based on Pearson system and its extensions, Signal Processing 82(4), 663--673."
+)
+
+citEntry(entry="manual",
+        title = "PearsonICA: Independent component analysis using score functions from the Pearson system",
+    	author = personList(person("Juha","Karvanen",email="juha.karvanen@ktl.fi")),
+    	year = 2006,
+    	note = "R package version 1.2-1",
+   
+	textVersion ="J. Karvanen (2006). PearsonICA R package version 1.2-1"
+)
