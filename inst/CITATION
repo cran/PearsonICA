@@ -16,8 +16,8 @@ citEntry(entry="article",
 citEntry(entry="manual",
         title = "PearsonICA: Independent component analysis using score functions from the Pearson system",
     	author = personList(person("Juha","Karvanen",email="juha.karvanen@ktl.fi")),
-    	year = 2006,
-    	note = "R package version 1.2-1",
+    	year = 2008,
+    	note = "R package version 1.2-3",
    
-	textVersion ="J. Karvanen (2006). PearsonICA R package version 1.2-1"
+	textVersion ="J. Karvanen (2008). PearsonICA R package version 1.2-3"
 )

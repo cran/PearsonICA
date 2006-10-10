@@ -288,7 +288,7 @@ PearsonICAdemo<-function(numsig=4,signal_length=5000)
     cat('visible.\n');
     
     cat('\nPlotting the beginning of the source signals.\n')
-    get(getOption("device"))()
+    dev.new()
     par(mfrow = c(numsig, 1),mar=c(0,0,1,0));
     
     for (signal_no in 1:numsig)
@@ -326,7 +326,7 @@ PearsonICAdemo<-function(numsig=4,signal_length=5000)
     #############################################################################
     # Plotting the beginning of the mixed signals.
     #############################################################################
-    get(getOption("device"))()
+    dev.new()
     par(mfrow = c(numsig, 1),mar=c(0,0,1,0));
     for (signal_no in 1:numsig)
     {
@@ -355,7 +355,7 @@ PearsonICAdemo<-function(numsig=4,signal_length=5000)
     #############################################################################
     # Plotting the beginning of the separated signals.
     #############################################################################
-    get(getOption("device"))()
+    dev.new()
     par(mfrow = c(numsig, 1),mar=c(0,0,1,0));
     for (signal_no in 1:numsig)
     {
@@ -383,7 +383,7 @@ PearsonICAdemo<-function(numsig=4,signal_length=5000)
     normalized_icasig<-t(source_sign*t(normalized_icasig));
     
     cat('\nPlotting the beginning of the normalized signals.\n') 
-    get(getOption("device"))()
+    dev.new()
     par(mfrow = c(numsig, 1),mar=c(0,0,1,0));
     for (signal_no in 1:numsig)
     {
