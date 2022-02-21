@@ -1,2 +1,5 @@
 export(PearsonICA,PearsonICAdemo)
+importFrom("grDevices", "dev.new")
+importFrom("graphics", "axis", "lines", "par", "title")
+importFrom("stats", "rnorm")
 

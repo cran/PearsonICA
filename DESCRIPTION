@@ -1,9 +1,9 @@
 Package: PearsonICA
 Type: Package
-Title: Independent component analysis using score functions from the
-        Pearson system
-Version: 1.2-4
-Date: 2006-06-29
+Title: Independent Component Analysis using Score Functions from the
+        Pearson System
+Version: 1.2-5
+Date: 2022-02-19
 Author: Juha Karvanen
 Maintainer: Juha Karvanen <juha.karvanen@iki.fi>
 Description: The Pearson-ICA algorithm is a mutual information-based
@@ -16,7 +16,9 @@ Description: The Pearson-ICA algorithm is a mutual information-based
         source distributions including asymmetric distributions. The
         algorithm is designed especially for problems with asymmetric
         sources but it works for symmetric sources as well.
-License: GPL-2
-Packaged: 2009-06-29 08:27:53 UTC; jkau
+License: AGPL-3
+Imports: grDevices, graphics, stats
+NeedsCompilation: no
+Packaged: 2022-02-19 17:39:02 UTC; juhak
 Repository: CRAN
-Date/Publication: 2009-06-29 09:39:47
+Date/Publication: 2022-02-21 09:00:28 UTC

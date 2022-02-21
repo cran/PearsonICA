@@ -4,7 +4,7 @@
 \concept{principal component analysis}
 \concept{blind source separation}
 \concept{signal separation}
-\title{Pearson-ICA algorithm for independent component analysis (ICA)}
+\title{Pearson-ICA Algorithm for Independent Component Analysis (ICA)}
 \description{
 The Pearson-ICA algorithm is a mutual information-based method for blind separation of statistically independent source signals.
 It has been shown that the minimization of mutual information leads to iterative use of score functions, i.e. derivatives of log densities. 
@@ -13,7 +13,9 @@ of source distributions including asymmetric distributions. The algorithm is des
 but it works for symmetric sources as well.
 }
 \usage{
-PearsonICA(X, n.comp = 0, row.norm = FALSE, maxit = 200, tol = 1e-04, border.base = c(2.6, 4), border.slope = c(0, 1), verbose = FALSE, w.init = NULL, na.rm = FALSE, whitening.only = FALSE, PCA.only = FALSE)
+PearsonICA(X, n.comp = 0, row.norm = FALSE, maxit = 200, tol = 1e-04, 
+           border.base = c(2.6, 4), border.slope = c(0, 1), verbose = FALSE, 
+		   w.init = NULL, na.rm = FALSE, whitening.only = FALSE, PCA.only = FALSE)
 }
 \arguments{
   \item{X}{input data. Each column contains one signal.}

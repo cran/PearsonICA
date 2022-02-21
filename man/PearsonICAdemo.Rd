@@ -1,6 +1,6 @@
 \name{PearsonICAdemo}
 \alias{PearsonICAdemo}
-\title{Demonstration of the Pearson-ICA algorithm}
+\title{Demonstration of the Pearson-ICA Algorithm}
 \description{
 Displays source signals, mixed signals and signals separated by Pearson-ICA.
 }
